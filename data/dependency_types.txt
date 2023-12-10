@@ -1,0 +1,22 @@
+root
+nmod
+nsubj
+dobj
+nsubjpass
+compound
+conj
+acl
+advcl
+ccomp
+amod
+acl:relcl
+xcomp
+dep
+appos
+nmod:poss
+advmod
+parataxis
+csubj
+iobj
+dependency_types_dict = {'root': 'Root', 'nmod': 'Modifier of nominal', 'nsubj': 'Nominal subject', 'dobj': 'Direct object', 'nsubjpass': 'Passive nominal subject', 'compound': 'Compound', 'conj': 'Conjunct', 'acl': 'Clausal modifier of noun', 'advcl': 'Adverbial clause modifier', 'ccomp': 'Clausal complement', 'amod': 'Adjectival modifier', 'acl:relcl': 'Relative clause modifier', 'xcomp': 'Open clausal complement', 'dep': 'Unclassified dependent', 'appos': 'Appositional modifier', 'nmod:poss': 'Possessive nominal modifier', 
+'advmod': 'Adverbial modifier', 'parataxis': 'Parataxis', 'csubj': 'Clausal subject', 'iobj': 'Indirect object'}
