@@ -1,8 +1,5 @@
 ### Group-9 CSCI 635 - Intro to Machine Learning:
 
-> **End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures**<br>
-> Makoto Miwa, Mohit Bansal<br> > [http://www.aclweb.org/anthology/P/P16/P16-1105.pdf](http://www.aclweb.org/anthology/P/P16/P16-1105.pdf)
-
 ## Relation Classification using LSTMs on Sequences and Tree Structures
 
 We implemented a architecture based on the paper [End-to-End Relation Extraction using LSTMs
