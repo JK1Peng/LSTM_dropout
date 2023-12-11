@@ -1,3 +1,5 @@
+# In this file, we have removed the scheduled sampling factor in the model.
+# author : Jiakai Peng, Pradeep Kumar Gontla, Xinyu Hu. 
 
 # Constant Declaration
 import sys

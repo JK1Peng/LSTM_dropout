@@ -1,3 +1,6 @@
+# In this file, we have updated the classifier of the model to svm.
+# author : Jiakai Peng, Pradeep Kumar Gontla, Xinyu Hu. 
+
 
 # Constant Declaration
 import sys
