@@ -1,3 +1,8 @@
+# In this file, we have updated the drop out factor in the model.
+# author : Jiakai Peng, Pradeep Kumar Gontla, Xinyu Hu. 
+
+
+
 ## REQUIREMENTS ##
 
 import sys
@@ -633,9 +638,6 @@ Y_softmax = [tf.reduce_mean(tf.nn.sparse_softmax_cross_entropy_with_logits(
 # Loss for Sequence
 with tf.compat.v1.name_scope("loss_seq"):
     loss_seq = tf.reduce_mean(Y_softmax)
-
-
-# In[13]:
 
 
 ## RELATION CLASSIFICATION ##
