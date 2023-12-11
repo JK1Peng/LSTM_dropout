@@ -31,15 +31,6 @@ The sequence layer represents words in a linear sequence
 using the representations from the embedding layer. We represent the word sequence in a sentence with bidirectional LSTM-RNNs.
 The LSTM unit at t-th word receives the concatenation of word and POS embeddings as its input vector.
 
-<p align="center">
-  <img src="/img/lstm_seq.jpg">
-</p>
-
-Tree-structured LSTM-RNN's equations :
-
-<p align="center">
-  <img src="/img/lstm_tree_eq.jpg">
-</p>
 ### Data
 
 SemEval-2010 Task 8 defines 9 relation types between nominals and a tenth type Other when two nouns have none of these relations and no direction is considered.
@@ -56,7 +47,7 @@ We implemented the above paper in tensorflow version2 using python 3.10.9.
 To extract the entities and understand the relations between them LSTM - Long Short Term Memory Recurrent Neural Networks are used.
 drop_out factor.py has detailed comments to understand the code.
 
-steps to build the project :
+## steps to build the project :
 
 1. Clone the Repository.
 2. The below requirements are essential to run the code. However, we request you download the dependencies mentioned in requirements.txt file.
